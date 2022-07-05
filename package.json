@@ -1,0 +1,24 @@
+{
+  "name": "dicoding-basic-fe",
+  "version": "1.0.0",
+  "description": "Dicoding belajar membuat front end web untuk pemula",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kuhakuni/dicoding-basic-fe.git"
+  },
+  "keywords": [
+    "front-end",
+    "javascript",
+    "website"
+  ],
+  "author": "kuhakuni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kuhakuni/dicoding-basic-fe/issues"
+  },
+  "homepage": "https://github.com/kuhakuni/dicoding-basic-fe#readme"
+}
