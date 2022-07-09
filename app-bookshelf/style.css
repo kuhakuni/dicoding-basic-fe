@@ -1,0 +1,101 @@
+:root {
+	--primary: #0070f3;
+}
+
+* {
+	font-family: "Inter", sans-serif;
+}
+body {
+	background-color: #f8f8ff;
+}
+h1 {
+	color: var(--primary);
+}
+h2 {
+	font-weight: 600;
+	margin-bottom: 2rem;
+}
+.card {
+	border: none;
+	border-radius: 0.5rem;
+	padding: 0.5rem 1rem;
+	margin-bottom: 1.5rem;
+	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+.card-content {
+	display: flex;
+	gap: 1rem;
+	justify-content: space-between;
+}
+.icons {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 1rem;
+}
+.icon-btn {
+	cursor: pointer;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: transform 0.1s ease-in-out;
+}
+.icon-btn:hover {
+	transform: scale(1.1);
+}
+.icon-check {
+	background-color: #2891c9;
+}
+.icon-pencil {
+	background-color: #ffc52d;
+}
+.icon-trash {
+	background-color: #d94c4c;
+}
+.icon-uncheck {
+	background-color: #00cc66;
+}
+p {
+	margin: 0;
+}
+a.icon {
+	display: none;
+}
+@media (max-width: 512px) {
+	a.icon {
+		display: block;
+	}
+	.icons {
+		display: none;
+	}
+}
+.dropdown-menu {
+	inset: -40px 0px auto auto !important;
+}
+.floating-btn {
+	cursor: pointer;
+	position: fixed;
+	right: 30px;
+	bottom: 30px;
+	z-index: 1;
+	background-color: var(--primary);
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	transition: all 0.2s;
+	box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.2);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.floating-btn:hover {
+	background-color: #2891c9;
+}
+.floating-btn i {
+	font-size: 36px;
+	color: #fff;
+}
